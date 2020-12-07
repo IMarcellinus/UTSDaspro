@@ -1,0 +1,2 @@
+kumpulan ide2
+1.program kasir = list daftar menu , ada harga -> pembeli milih -> yang dipilih diprint + harga + total
