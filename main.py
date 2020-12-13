@@ -2,37 +2,38 @@ def Binary(inputfield):
     try:
         val = int(inputfield, 2)
         print('Octal      =  ' + str(oct(val))[2:])
-        print('Decimal  =  ' + str(val))
-        print('HexaDec = ' + str(hex(val))[2:])
+        print('Decimal    =  ' + str(val))
+        print('HexaDec    =  ' + str(hex(val))[2:])
     except:
         print("Salah Input")
 def Octal(inputfield):
     try:
         val = int(inputfield, 8)
         print('Binary    =  ' + str(bin(val))[2:])
-        print('Decimal  =  ' + str(val))
-        print('HexaDec = ' + str(hex(val))[2:])
+        print('Decimal   =  ' + str(val))
+        print('HexaDec   =  ' + str(hex(val))[2:])
     except:
         print("Salah Input")
 def Decimal(inputfield):
     try:
         val = int(inputfield)
         print('Binary    =  ' + str(bin(val))[2:])
-        print('Octal      =  ' + str(oct(val))[2:])
-        print('HexaDec = ' + str(hex(val))[2:])
+        print('Octal     =  ' + str(oct(val))[2:])
+        print('HexaDec   =  ' + str(hex(val))[2:])
     except:
         print("Salah Input")
 def Hexadecimal(inputfield):
     try:
         val = int(inputfield, 16)
         print('Binary   =  ' + str(bin(val))[2:])
-        print('Octal     =  ' + str(oct(val))[2:])
-        print('Decimal = ' + str(val))
+        print('Octal    =  ' + str(oct(val))[2:])
+        print('Decimal  =  ' + str(val))
     except:
         print("Salah Input")
 
 pilihan = 1
 while pilihan != 0:
+    print("")
     print("===============================")
     print("1.Input Biner")
     print("2.Input Octal")
@@ -57,5 +58,3 @@ while pilihan != 0:
         Hexadecimal(inputfield)
     else :
         print("Pilihan Salah")
-    
-        
