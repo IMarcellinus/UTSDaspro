@@ -1,0 +1,5 @@
+# Program convert bilangan desimal,biner,octal,dan hexa
+
+1. menampilkan bilangan yang ingin dipilih
+2. inputkan bilangan yang ingin di convert
+3. menampilkan hasil dari convert yang ingin di inginkan 
